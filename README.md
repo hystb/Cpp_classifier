@@ -64,9 +64,9 @@ A confusion matrix is generated to visualize the model's performance across diff
    ```
 
 2. Install dependencies:
-expample for my config with cuda 12.8 and preview version(Nightly)
+expample for my config with cuda 12.6 and pytorch 2.7.0
    ```bash
-   pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+   pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
    ```
    ```bash
    pip install -r requirements.txt
